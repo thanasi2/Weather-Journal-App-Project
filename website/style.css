@@ -1,0 +1,141 @@
+body {
+  width: 95%;
+  max-width: 900px;
+  margin: auto;
+  background-color: #2ab5ff;
+  font-family: 'Raleway', sans-serif;
+}
+
+header {
+  font-size: 2.5em;
+  height: 100px;
+  color: #f0d43a;
+  background-color: #ff7700;
+  width: 100%;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+main {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+}
+
+button {
+  margin: auto;
+  width: 100px;
+  height: 50px;
+  background: #3b4a6b;
+  color: #f0d43a;
+  font-size: 26px;
+  font-family: 'Oswald', sans-serif;
+  border: none;
+  box-shadow: 2px 4px 5px #444;
+}
+
+input {
+  background:#9595956e;
+  color: #f0d43a;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  border: none;
+}
+
+textarea {
+  padding-top: 0px;
+  background:#9595956e;
+  color: #f0d43a;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  border: none;
+}
+
+label {
+  font-size: 1.5em;
+  color: white;
+  font-weight: bold;
+}
+
+.headline{
+  padding-top: 30px;
+}
+
+.zip {
+  width: 80%;
+  max-width: 300px;
+  display: grid;
+  margin: auto;
+}
+
+.feel{
+  min-height: 200px;
+  width: 80%;
+  max-width: 500px;
+  display: grid;
+  margin: auto;
+}
+
+.entry{
+  padding-top: 0px;
+  min-height: 100px;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 5px;
+
+}
+
+#entryHolder {
+}
+
+#label {
+  padding-top: 20px;
+}
+
+#dateTemp {
+  font-size: 1em;
+}
+
+#dateTemp {
+  font-style: italic;
+}
+
+#content {
+  font-size: 1.2em;
+}
+
+#title{
+  font-style: italic;
+  font-weight: bold;
+  color: #58a7d1;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+::placeholder { /* Firefox, Chrome, Opera */
+    text-align: center;
+    color: #f0d43a;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #f0d43a;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #f0d43a;
+    font-family: 'Oswald', sans-serif;
+
+}
